@@ -1,0 +1,22 @@
+.bg-container{
+    background-color:#0f172a;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+.team-img{
+   height: 400px;
+   width: 300px;
+}
+@media screen and (max-width:768px) {
+    .team-img{
+        height: 220px;
+        width: 150px;
+    }
+}
